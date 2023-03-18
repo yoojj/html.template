@@ -1,0 +1,14 @@
+/* ie7 opacity */
+E {filter:alpha(opacity=50);-ms-filter:"alpha(opacity=50)";-khtml-opacity:0.5;}
+
+
+/* 줄바꿈 */
+E {white-space:nowrap;text-overflow:ellipsis;overflow:hidden;}
+
+
+/* transform */
+E {-webkit-backface-visibility:hidden;backface-visibility:hidden;}
+
+
+/* 모멘텀 스크롤 */
+E {-webkit-overflow-scrolling:touch;}
