@@ -1,0 +1,34 @@
+<style>
+div {background:#333;}
+svg text a {
+    fill:none;
+    font-weight:bold;
+    font-size:110px;
+    stroke:#a79db1;
+    stroke-width:1px;
+    stroke-dasharray:2,3;
+    stroke-linejoin:round;
+}
+
+svg text a:hover {stroke:#fff;animation: 5s TEST infinite;}
+
+@keyframes TEST {
+    50% {
+        stroke-dasharray:5;
+    }
+}
+</style>
+
+
+
+<div>
+<?xml version="1.0" ?>
+<svg xmlns="http://www.w3.org/2000/svg" width="500" height="800" version="1.1">
+    your browser does not support inline SVG
+    <text x="0">
+        <tspan y="130"><a href="#about">AAAAA</a></tspan>
+        <tspan x="0" y="260"><a href="">BBBBB</a></tspan>
+        <tspan x="0" y="380"><a href="">CCCCC</a></tspan>
+    </text>
+</svg>
+</div>
